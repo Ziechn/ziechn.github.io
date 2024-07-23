@@ -1,6 +1,6 @@
 <template>
   <nav>
-      <img src="../../public/images/chris-000.jpg" alt="">
+      <img src="/src/assets/images/chris-000.jpg" alt="">
       <div><router-link v-bind:to="{ name: 'home' }">Home</router-link></div>
       <div><router-link v-bind:to="{ name: 'about'}">About Me</router-link></div>
       <div><router-link v-bind:to="{ name: 'projects'}">Projects</router-link></div>
