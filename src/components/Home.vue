@@ -17,14 +17,14 @@
     data() {
       return {
         hideNav: true,
-        imageSource: '/public/images/chris-000.jpg',
+        imageSource: 'public/images/chris-000.jpg',
       }
     },
     created() {
       const delayInSeconds = 4;
       let index = 0;
   
-      const imageDir = '/public/images/';
+      const imageDir = 'public/images/';
       const images = ['chris-000.jpg',
         'chris-001.jpg',
         'chris-002.jpg',
