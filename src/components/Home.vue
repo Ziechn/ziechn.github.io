@@ -1,14 +1,14 @@
 <template>
   <div class="content">
-    <div>
-      <h1 v-bind:class="{ 'nav-hidden': hideNav == true }">Chris's Portfolio</h1>
+    <h1 v-bind:class="{ 'nav-hidden': hideNav == true }">Chris's Portfolio</h1>
+    <div class="image-container">
       <img v-bind:src="imageSource" v-on:mouseover="hideNav = false" v-on:mouseleave="hideNav = true" />
-      <nav v-bind:class="{ 'nav-hidden': hideNav == true }" v-on:mouseover="hideNav = false"
-        v-on:mouseleave="hideNav = true">
-        <div><router-link v-bind:to="{ name: 'about' }">About Me</router-link></div>
-        <div><router-link v-bind:to="{ name: 'projects' }">Projects</router-link></div>
-      </nav>
     </div>
+    <nav v-bind:class="{ 'nav-hidden': hideNav == true }" v-on:mouseover="hideNav = false"
+      v-on:mouseleave="hideNav = true">
+      <div><router-link v-bind:to="{ name: 'about' }">About Me</router-link></div>
+      <div><router-link v-bind:to="{ name: 'projects' }">Projects</router-link></div>
+    </nav>
   </div>
 </template>
 
@@ -50,6 +50,43 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-size: 2.1em;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  width: 256px;
+  position: relative;
+  bottom: 150px;
+  left: 256px;
+}
+
+img {
+  display: block;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  width: 256px;
+  position: relative;
+  top: 158px;
+  right: 256px;
+}
+
+nav div {
+  background-color: #412728;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+nav div:hover {
+  background-color: #7f4d3e;
+}
+
 .content {
   margin: 0;
   display: flex;
@@ -59,37 +96,34 @@ export default {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 2.1em;
-  margin-bottom: 10px;
+.image-container {
+  position: relative;
+  display: inline-block;
 }
 
-img {
-  margin: -6px;
-  padding: 0;
+.overlay {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    pointer-events: none;
 }
 
-nav {
-  margin: 0;
-  padding: 0;
-  width: 256px;
+.top {
+    top: -50px;
+}
+
+.bottom {
+    bottom: -50px;
 }
 
 .nav-hidden {
   display: none;
-}
-
-nav div {
-  background-color: #6b6b6b;
-  color: #242424;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-}
-
-nav div:hover {
-  background-color: #929292;
-  color: #242424;
 }
 </style>

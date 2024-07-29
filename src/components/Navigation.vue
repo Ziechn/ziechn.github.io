@@ -16,13 +16,12 @@
   <style scoped>
   nav {
       display: flex;
-      background-color: #6b6b6b;
+      background-color: #412728;
   }
   img {
       width: 30px;
   }
   nav div {
-    color: #242424;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +29,6 @@
     width: 256px;
   }
   nav div:hover {
-    background-color: #929292;
-    color: #242424;
+    background-color: #7f4d3e;
   }
   </style>
