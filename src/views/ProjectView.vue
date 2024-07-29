@@ -1,5 +1,6 @@
 <template>
     <Navigation />
+    <h1>Projects</h1>
     <Projects />
 </template>
 
