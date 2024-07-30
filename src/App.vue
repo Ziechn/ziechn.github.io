@@ -13,7 +13,8 @@ export default {
 <style>
 h1 {
   margin: 0;
-  width: 90%;
+  width: fit-content;
+  text-size-adjust: 100%;
 }
 
 h2 {

@@ -55,7 +55,6 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 2.1em;
   margin-bottom: 10px;
   color: whitesmoke;
   margin: 0;
