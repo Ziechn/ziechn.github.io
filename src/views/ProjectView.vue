@@ -2,7 +2,6 @@
     <Navigation />
     <div class="content">
         <div class="header"><h1>Projects</h1></div>
-        
         <Projects />
     </div>
 </template>

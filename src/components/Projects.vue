@@ -1,5 +1,6 @@
 <template>
   <HitTheDeck/>
+  <SecondNature/>
   <NominEat/>
   <FullStackVendingMachine/>
   <TEnmo/>
@@ -8,6 +9,7 @@
 
 <script>
 import HitTheDeck from './HitTheDeck.vue';
+import SecondNature from './SecondNature.vue';
 import NominEat from './NominEat.vue';
 import FullStackVendingMachine from './FullStackVendingMachine.vue';
 import TEnmo from './TEnmo.vue';
@@ -18,7 +20,8 @@ export default {
     NominEat,
     FullStackVendingMachine,
     TEnmo,
-    VendingMachine
+    VendingMachine,
+    SecondNature
   }
 }
 </script>

@@ -1,5 +1,6 @@
 <template>
     <div class="project-container">
+        <img src="/assets/images/vending-machine.png" alt="Vending Machine">
         <div class="detail">
             <h2>Vending Machine Application</h2>
             <h3>A CLI application to simulate a virtual vending machine.</h3>
@@ -12,7 +13,7 @@
             </p>
             <h4>Java | Inheritance | Object Orientated Programming</h4>
         </div>
-        <img src="/assets/images/vending-machine.png" alt="">
+        
     </div>
 </template>
 
@@ -43,10 +44,6 @@ h4 {
     color: #e2b659;
 }
 
-img {
-    border-radius: 10px;
-}
-
 p {
     color: #b87c4c;
 }
@@ -56,12 +53,13 @@ p {
 }
 
 .project-container img {
+    border-radius: 10px;
     display: block;
     width: 256px;
     height: 256px;
     background-color: #7f4d3e;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .detail {

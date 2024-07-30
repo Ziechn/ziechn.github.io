@@ -62,10 +62,6 @@ h4 {
     color: #e2b659;
 }
 
-img {
-    border-radius: 10px;
-}
-
 p {
     color: #b87c4c;
 }
@@ -75,6 +71,7 @@ p {
 }
 
 .project-container img {
+    border-radius: 10px;
     display: block;
     width: 256px;
     height: 256px;

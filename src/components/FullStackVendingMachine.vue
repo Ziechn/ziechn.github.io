@@ -1,10 +1,11 @@
 <template>
     <div class="project-container">
+        <img src="/assets/images/full-stack-vending-machine.png" alt="Full Stack Vending Machine">
         <div class="detail">
             <h2>Full Stack Vending Machine</h2>
             <h3>Taking the CLI application made during the bootcamp and making it a full stack application.</h3>
             <p>
-                Click to view this application: Full Stack Vending Machine (Coming Soon)
+                <a href="http://github.com/Ziechn/vending-machine-full-stack" target="_blank">github</a>
             </p>
             <p>
                 After our bootcamp ended, one of my classmates asked for help fixing our first capstone project together.
@@ -16,7 +17,7 @@
             </p>
             <h4>Java | Springboot | PostgreSQL | Postman | HTML | CSS | JavaScript | Vue.js | Axios | External APIs | RESTful API | JDBC</h4>
         </div>
-        <img src="/assets/images/full-stack-vending-machine.png" alt="">
+        
     </div>
 </template>
 
@@ -47,10 +48,6 @@ h4 {
     color: #e2b659;
 }
 
-img {
-    border-radius: 10px;
-}
-
 p {
     color: #b87c4c;
 }
@@ -60,12 +57,13 @@ p {
 }
 
 .project-container img {
+    border-radius: 10px;
     display: block;
     width: 256px;
     height: 256px;
     background-color: #7f4d3e;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .detail {

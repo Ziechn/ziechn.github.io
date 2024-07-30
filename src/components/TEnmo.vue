@@ -1,6 +1,6 @@
 <template>
     <div class="project-container">
-        <img src="/assets/images/tenmo.png" alt="">
+        
         <div class="detail">
             <h2>TENmo</h2>
             <h3>A CLI application to simulate transfering money between users.</h3>
@@ -15,6 +15,7 @@
             </p>
             <h4>Java | Springboot | PostgreSQL | JDBC</h4>
         </div>
+        <img src="/assets/images/tenmo.png" alt="TEnmo">
     </div>
 </template>
 
@@ -45,10 +46,6 @@ h4 {
     color: #e2b659;
 }
 
-img {
-    border-radius: 10px;
-}
-
 p {
     color: #b87c4c;
 }
@@ -58,6 +55,7 @@ p {
 }
 
 .project-container img {
+    border-radius: 10px;
     display: block;
     width: 256px;
     height: 256px;

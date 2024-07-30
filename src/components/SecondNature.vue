@@ -1,11 +1,11 @@
 <template>
-    <div class="project-container">
-        
+  <div class="project-container">
+    <img src="/assets/images/second-nature.png" alt="Second Nature Logo">
         <div class="detail">
-            <h2>NominEat</h2>
-            <h3>NominEat takes the stress out of restaurant selection.</h3>
+            <h2>Second Nature</h2>
+            <h3>A full featured web based mobile application.</h3>
             <p>
-                <a href="http://github.com/Ziechn/NominEat-Capstone" target="_blank">github</a>
+                <a href="http://github.com/nathandickinson32/second-nature" target=”_blank”>github</a>
             </p>
             <p>NominEat is a restaurant selection service where you, as an event organizer, selects a number of
                 restaurants for
@@ -18,12 +18,13 @@
             <h4>Java | Springboot | PostgreSQL | Postman | HTML | CSS | JavaScript | Vue.js | Axios | External APIs |
                 RESTful API | JDBC</h4>
         </div>
-        <img src="/assets/images/nomin-eat.png" alt="NominEat Logo">
+        
     </div>
 </template>
 
 <script>
 export default {
+
 }
 </script>
 
@@ -63,7 +64,7 @@ p {
     height: 256px;
     background-color: #7f4d3e;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .detail {
