@@ -8,10 +8,8 @@
                 No Version Available to view. (Ask to view source code)
             </p>
             <p>
-                Our bootcamp's second group capstone project. TEnmo was a group project to create a Venmo clone where
-                users can transfer and view simulated funds in a CLI
-                application. Using our understanding of a Java backend, using object orientated principal, and
-                connecting to a PostgreSQL database throught the JDBC template.
+                Tech Elevator's second group capstone project, Tenmo, is a Venmo clone designed for simulating fund transfers and views through a CLI application.
+                We used our knowledge of Java for the backend, applying object-oriented principles and connecting to a PostgreSQL database via the JDBC template.
             </p>
             <h4>Java | Springboot | PostgreSQL | JDBC</h4>
         </div>

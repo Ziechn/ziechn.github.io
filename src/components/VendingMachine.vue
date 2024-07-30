@@ -8,8 +8,8 @@
                 No version available to view. (Ask to view source code)
             </p>
             <p>
-                Our bootcamp's first group capstone project. The vending machine CLI application where users add vitural
-                money and purchase simulated snacks. Written in Java using object orientated programming principals.
+                Tech Elevators first group capstone project was a vending machine CLI application.
+                Users can add virtual money and purchase simulated snacks. The project was developed in Java using object-oriented programming principles.
             </p>
             <h4>Java | Inheritance | Object Orientated Programming</h4>
         </div>

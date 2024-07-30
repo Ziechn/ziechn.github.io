@@ -14,7 +14,7 @@ export default {
 h1 {
   margin: 0;
   width: fit-content;
-  text-size-adjust: 100%;
+  font-size: 1.5em;
 }
 
 h2 {
@@ -37,6 +37,10 @@ h4 {
   color: #e2b659;
 }
 
+hr {
+  border: 1px solid #b87c4c;
+}
+
 p {
   color: #b87c4c;
 }
@@ -46,15 +50,16 @@ ul {
   list-style: square;
 }
 
-section hr {
-  border: 1px solid #000000;
-}
-
 .contact {
   display: flex;
   width: auto;
-  margin: 0px;
+  margin: 10px 0px;
+  justify-content: center;
 }
+
+.contact a:last-child {
+    border: none;
+  }
 
 .content {
   display: flex;
@@ -82,7 +87,6 @@ section hr {
   margin: 0px;
   padding: 0 10px;
 }
-
 
 .project-container {
   display: flex;
@@ -127,10 +131,6 @@ section hr {
     margin: 10px 0;
   }
 
-  .contact a:last-child {
-    border: none;
-  }
-
   .content {
     width: 80%;
     margin-left: 10%;
@@ -145,12 +145,6 @@ section hr {
     width: auto;
     height: auto;
     margin: 10px 0;
-  }
-}
-
-@media screen and (min-width: 500px) {
-  hr {
-    display: none;
   }
 }
 

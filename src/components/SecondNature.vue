@@ -7,14 +7,23 @@
             <p>
                 <a href="http://github.com/nathandickinson32/second-nature" target=”_blank”>github</a>
             </p>
-            <p>NominEat is a restaurant selection service where you, as an event organizer, selects a number of
-                restaurants for
-                your friends to vote on. To make selecting a restaurant to eat much easier.</p>
-            <p>NominEat was a group project for our final capstone while I was attending the Tech Elevator bootcamp. I
-                helped to
-                design the database, write the backend code using a Java Springboot server, as well as assisted with the
-                front end
-                using Vue.js and axios.</p>
+            <p>
+                The Second Nature communications app aims to simplify communication and operational efficiency for the landscaping company with the same name, Second Nature Landscapping LLC. <br>
+                Features include:
+            </p>
+            <ul>
+                <li>Time off requests</li>
+                <li>Kudos message board</li>
+                <li>Professional check-ins (coming soon)</li>
+                <li>Equipment inventory (coming soon)</li>
+                <li>Maintenance ticket tracking (coming soon)</li>
+                <li>And more!</li>
+            </ul>
+            <p>
+                This application ensures data persistence and ease of use.
+                It is built with a Java/Spring Boot backend using object-oriented principles,
+                connecting to a PostgreSQL database via the JDBC Template, and interfacing with a Vue.js front-end through the REST template.
+            </p>
             <h4>Java | Springboot | PostgreSQL | Postman | HTML | CSS | JavaScript | Vue.js | Axios | External APIs |
                 RESTful API | JDBC</h4>
         </div>

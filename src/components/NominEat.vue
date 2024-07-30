@@ -7,16 +7,20 @@
             <p>
                 <a href="http://github.com/Ziechn/NominEat-Capstone" target="_blank">github</a>
             </p>
-            <p>NominEat is a restaurant selection service where you, as an event organizer, selects a number of
-                restaurants for
-                your friends to vote on. To make selecting a restaurant to eat much easier.</p>
-            <p>NominEat was a group project for our final capstone while I was attending the Tech Elevator bootcamp. I
-                helped to
-                design the database, write the backend code using a Java Springboot server, as well as assisted with the
-                front end
-                using Vue.js and axios.</p>
-            <h4>Java | Springboot | PostgreSQL | Postman | HTML | CSS | JavaScript | Vue.js | Axios | External APIs |
-                RESTful API | JDBC</h4>
+            <p>
+                NominEat is a restaurant selection service where you, as an event organizer, search for and select a number of
+                restaurants that you would like to eat at. Then send that list to your friends and ask them to vote for their favorites.
+            </p>
+            <p>
+                Group restaurant selection is now a fun event for the entire group.
+            </p>
+            <p>
+                NominEat was our final capstone project at the Tech Elevator bootcamp.
+                I designed the database and wrote backend code using Java/Spring Boot,
+                connecting to a PostgreSQL server via the JDBC Template. I also integrated an external Yelp! API,
+                set up internal API endpoints with the REST Template, and helped finalize the front-end features using Vue.js and Axios.
+            </p>
+            <h4>Java | Springboot | PostgreSQL | Postman | HTML | CSS | JavaScript | Vue.js | Axios | External APIs | RESTful API | JDBC</h4>
         </div>
 
     </div>

@@ -8,33 +8,24 @@
                 Releasing when it's ready!
             </p>
             <p>
-                Hit the Deck Racing - Mobile is an exciting sci-fi racing game meant to cature the simplicy and fun of
-                retro
-                games
-                of the past. Based on arcade racers from the Nintendo 64 and the Playstation 1 timeframe.
-                But with modern twists. You are divien to build your reputation within the Hit the Deck league and rise
-                to
-                become
-                an ultimate racer.
+                Hit the Deck Racing - Mobile is an exciting sci-fi racing game that captures the simplicity and fun of classic retro games.
+                Inspired by arcade racers from the Nintendo 64 and PlayStation 1 eras, it offers modern twists for a fresh experience.
+                Compete to build your reputation within the Hit the Deck league and rise to become the ultimate racer.
             </p>
-            <p>Race through 16 race track against the computer or challenge your friends across 3 different game types.
-                Classic
-                Race, where you race against your opponents to be the first accross the finish line.
-                Race Royale, where the last racer of each lap will be eliminated until the last 2 racers remain. The
-                first
-                to
-                finish the lap is the winner!
-                Qualifiers, where the pilot races against the clock to earn their next license level.
+            <p>
+                Race through 16 tracks, either against computer opponents or your friends, across three exciting game modes:
             </p>
-            <p>Hit the Deck Racing - Mobile is a personal passion project of mine. I wanted to lean how to program and
-                started
-                with an ambitious project while I leanred a number of tools to make games.
-                Built within the Unity game engine, written in C# using object orientent programing standards. As well
-                as
-                count
-                less other tool to make assets such as Blender 3D for 3D assets, Procreate and Krita for textures and
-                images, and
-                various other tools.
+            <ul>
+                <li>Classic Race: Compete to be the first across the finish line.</li>
+                <li>Race Royale: The last racer of each lap is eliminated until only two remain. The first to finish the final lap wins!</li>
+                <li>Qualifiers: Race against the clock to earn your next license level</li>
+            </ul>
+            <p>
+                Hit the Deck Racing - Mobile is a personal passion project of mine.
+                I embarked on this ambitious project to learn programming and explore game development tools.
+                Built with the Unity game engine and written in C# using object-oriented programming standards,
+                the game also leverages various tools for asset creation, including Blender 3D for 3D models,
+                Procreate and Krita for textures and images, and various other tools.
             </p>
             <h4>Unity 3D | Blender 3D | C# | Adobe Illustrator | Procreate | Krita | Inkscape | Ableton Live</h4>
         </div>

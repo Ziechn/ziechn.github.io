@@ -3,46 +3,37 @@
     Software Developer - Dad - Artist - Gamer - Spaghetti Thrower
   </p>
 
-  <div class="contact">
-    <a href="mailto:" target="_blank">chrisacook1984@gmail.com</a>
-    <a href="http://github.com/Ziechn" target="_blank">github</a>
-    <a href="http://x.com/thrownspaghetti" target="_blank">x</a>
-    <a href="http://www.instagram.com/thrownspaghetti/" target="_blank">instagram</a>
-    <a href="http://www.linkedin.com/in/chrisacook84/" target="_blank">linkedin</a>
-  </div>
-
   <div class="section">
     <h3>In a nutshell</h3>
-    <h2>Creative, self-managed, Dad.</h2>
+    <h2>Creative, self-managed, Dad</h2>
     <p>
-      A background in customer service, graphic design, print, video production, music, web design, etc. You could say
-      that I have been throwing spaghetti at the wall to see what sticks.
+      I have a diverse background spanning customer service, graphic design, print, video production, music, and web design.
+      You could say that I have been throwing spaghetti at the wall to see what sticks.
     </p>
     <p>
-      But for most part, I have been an artist. During my time at FedEx Office, I was given the opportunity to flex my
-      logical problem solving muscles when as I was tasked with building a fulfillment solution. I worked with my team
-      to create complex excel formulas, develop and maintain an automation tool, and worked with the corporate
-      development team to design a web based order management application. All while building confidence in my technical
-      abilities...
+      But for most part, I have been an artist.
     </p>
     <p>
-      In 2019, I felt like I needed to do something more. I spent most of the year talking with friends and colleagues
-      about how to proceed. In November of that year, I dropped the exclusive "artist" label and began developing my
-      first game project in Unity. I chose Unity because I felt like programming in C# would be the most transferrable.
-      That was when I found what I was meant to be doing: solving problems with code. For 4 years I continued working on
-      that project, building the skills and confidence to make my next big jump...
+      During my time at FedEx Office, I had the opportunity to apply my logical problem-solving skills by building a fulfillment solution.
+      I collaborated with my team to create complex Excel formulas, develop and maintain an automation tool, and design a web-based order
+      management application with the corporate development team. This experience helped me build confidence in my technical abilities.
     </p>
     <p>
-      I did it! I took the leap and left my job of 12 years in February, 2024 to attend the Tech Elevator Java
-      programming bootcamp. Pursuing my career in tech.
+      In 2019, feeling the need for a new direction, I started exploring new career paths.
+      After extensive discussions with friends and colleagues, I decided to move beyond the "artist" label and began developing my first game project in Unity.
+      I chose Unity because I believed programming in C# would be highly transferable. It was then that I discovered my true passion: solving problems with code.
+      Over the next four years, I worked on this project, honing my skills and building the confidence needed for the next big step.
     </p>
     <p>
-      My 2 kids are my two greatest achievements, but I am now working towards creating my next one.
+      In February 2024, I took the leap and left my job of 12 years to attend the Tech Elevator Java programming bootcamp, fully committing to a career in tech.
+    </p>
+    <p>
+      While my two children are my greatest achievements, now I am focused on creating my next great achievement.
     </p>
   </div>
 
   <div class="section">
-    <h3>Experience</h3>
+    <h3>Professional Experience</h3>
     <h2>Full Stack Developer</h2>
     <h3>Second Nature</h3>
     <p>Jul 2024 - Present</p>
@@ -85,6 +76,9 @@
       - Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams <br>
       - Development Tools and Techniques: Agile, Unit Testing (JUnit), Integration Testing, Git, IntelliJ <br>
     </p>
+
+    <hr>
+
     <h2>Antonelli College-Cincinnati</h2>
     <h3>2004 - 2006</h3>
     <p>
@@ -93,7 +87,7 @@
   </div>
 
   <div class="section">
-    <h3>Professional History</h3>
+    <h3>Job History</h3>
     <h2>FedEx Office</h2>
     <h3>Jun 2011 - Feb 2024</h3>
     <p>
@@ -161,7 +155,14 @@
       <li>Effectively coordinated with the backend developer and sales to deliver front end solutions</li>
       <li>Designed and built front end websites utilizing HTML and CSS</li>
     </ul>
+  </div>
 
+  <div class="contact">
+    <a href="mailto:" target="_blank">chrisacook1984@gmail.com</a>
+    <a href="http://github.com/Ziechn" target="_blank">github</a>
+    <a href="http://x.com/thrownspaghetti" target="_blank">x</a>
+    <a href="http://www.instagram.com/thrownspaghetti/" target="_blank">instagram</a>
+    <a href="http://www.linkedin.com/in/chrisacook84/" target="_blank">linkedin</a>
   </div>
 </template>
 

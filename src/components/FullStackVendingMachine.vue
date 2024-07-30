@@ -8,16 +8,14 @@
                 <a href="http://github.com/Ziechn/vending-machine-full-stack" target="_blank">github</a>
             </p>
             <p>
-                After our bootcamp ended, one of my classmates asked for help fixing our first capstone project
-                together.
-                I thought it would be fun to help get that working while turning it into a full event for my friends.
-                I hosted a Discord event to help walk through how to update our original code, as well building the
-                vending machine full stack application.
+                After our bootcamp ended, one of my classmates asked for help fixing our first capstone project.
+                I thought it would be fun to turn this into a full event for my friends.
+                So, I hosted a Discord event where I guided everyone through updating our original code and building the vending machine full-stack application.
             </p>
             <p>
-                This app features most of the techniques we learned during our bootcamp. A PostgreSQL server, a Java /
-                Springboot backend, utilizing the REST and JDBC templates, testing endpoints with Postman, and building
-                a front-end with Vue.js with the fundamentals we learned about HTML, CSS, and Javascript.
+                This app incorporates many of the techniques we learned during our bootcamp, including a PostgreSQL server,
+                a Java/Spring Boot backend using REST and JDBC templates, endpoint testing with Postman, and a front-end built with Vue.js,
+                utilizing the fundamentals of HTML, CSS, and JavaScript.
             </p>
             <h4>Java | Springboot | PostgreSQL | Postman | HTML | CSS | JavaScript | Vue.js | Axios | External APIs |
                 RESTful API | JDBC</h4>

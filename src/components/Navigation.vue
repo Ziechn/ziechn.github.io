@@ -2,9 +2,9 @@
   <div>
     <nav>
       <img src="/assets/images/chris-000.jpg" alt="">
-      <div><router-link v-bind:to="{ name: 'home' }">Home</router-link></div>
-      <div><router-link v-bind:to="{ name: 'about' }">About Me</router-link></div>
-      <div><router-link v-bind:to="{ name: 'projects' }">Projects</router-link></div>
+      <router-link v-bind:to="{ name: 'home' }"><div>Home</div></router-link>
+      <router-link v-bind:to="{ name: 'about' }"><div>About Me</div></router-link>
+      <router-link v-bind:to="{ name: 'projects' }"><div>Projects</div></router-link>
     </nav>
   </div>
 
