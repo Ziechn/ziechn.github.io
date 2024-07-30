@@ -2,7 +2,7 @@
   <div class="content">
     <h1 v-bind:class="{ 'nav-hidden': hideNav == true }">Chris's Portfolio</h1>
     <div class="image-container">
-      <img v-bind:src="imageSource" v-on:mouseover="hideNav = false" v-on:mouseleave="hideNav = true" />
+      <img v-bind:src="imageSource" v-on:mouseover="hideNav = false" v-on:click="hideNav = false" v-on:mouseleave="hideNav = true" />
     </div>
     <nav v-bind:class="{ 'nav-hidden': hideNav == true }" v-on:mouseover="hideNav = false"
       v-on:mouseleave="hideNav = true">
