@@ -1,9 +1,14 @@
 <template>
   <HitTheDeck/>
+  <hr>
   <SecondNature/>
+  <hr>
   <NominEat/>
+  <hr>
   <FullStackVendingMachine/>
+  <hr>
   <TEnmo/>
+  <hr>
   <VendingMachine/>
 </template>
 

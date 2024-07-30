@@ -1,14 +1,16 @@
 <template>
-  <div class="contact">
-    <a href="mailto:" target="_blank">chrisacook1984@gmail.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
-      href="http://github.com/Ziechn" target="_blank">github</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
-      href="http://x.com/thrownspaghetti" target="_blank">x</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
-      href="http://www.instagram.com/thrownspaghetti/" target="_blank">instagram</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
-      href="http://www.linkedin.com/in/chrisacook84/" target="_blank">linkedin</a>
-  </div>
   <p class="headline">
     Software Developer - Dad - Artist - Gamer - Spaghetti Thrower
   </p>
+
+  <div class="contact">
+    <a href="mailto:" target="_blank">chrisacook1984@gmail.com</a>
+    <a href="http://github.com/Ziechn" target="_blank">github</a>
+    <a href="http://x.com/thrownspaghetti" target="_blank">x</a>
+    <a href="http://www.instagram.com/thrownspaghetti/" target="_blank">instagram</a>
+    <a href="http://www.linkedin.com/in/chrisacook84/" target="_blank">linkedin</a>
+  </div>
+
   <div class="section">
     <h3>In a nutshell</h3>
     <h2>Creative, self-managed, Dad.</h2>
@@ -100,8 +102,10 @@
     <ul>
       <li>Managed over 30 large scale print projects with 95% accuracy</li>
       <li>Reduced order processing time from over 7 minutes to 2 minutes or less by developing an automation tool</li>
-      <li>Implemented a fulfillment process which decreased missing order requests from 4 a day to less than 1 a month</li>
-      <li>Maintained and organized an online catalog of over 800 active items and an original file system of over 100 projects for ease of access</li>
+      <li>Implemented a fulfillment process which decreased missing order requests from 4 a day to less than 1 a month
+      </li>
+      <li>Maintained and organized an online catalog of over 800 active items and an original file system of over 100
+        projects for ease of access</li>
       <li>Effectively coordinated project meetings with customers to ensure quality with 95% accuracy</li>
       <li>Interacted with vendors to ensure all work was completed timely and accurately</li>
       <li>Honorary recipient of the Purple Promise reward</li>
@@ -167,51 +171,4 @@ export default {
 }
 </script>
 
-<style>
-h2 {
-  margin: 0;
-  color: #e2b659;
-}
-
-h3 {
-  font-size: 1em;
-  font-weight: lighter;
-  margin: 0;
-  color: #7f4d3e;
-}
-
-h4 {
-  font-size: 0.8em;
-  background-color: black;
-  padding: 10px;
-  border-radius: 5px;
-  color: #e2b659;
-}
-
-p {
-  color: #b87c4c;
-}
-
-ul {
-  color: #b87c4c;
-  list-style: square;
-}
-
-hr {
-  border: 1px solid #000000;
-}
-
-.section {
-  background-color: #412728;
-  padding: 20px;
-  border-radius: 5px;
-  margin: 20px;
-}
-
-.contact,
-.headline {
-  width: 100%;
-  margin-top: 0px;
-  margin-left: 50px;
-}
-</style>
+<style></style>

@@ -24,48 +24,10 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-    margin: 0;
-    color: #e2b659;
-}
-
-h3 {
-    font-size: 1em;
-    font-weight: lighter;
-    margin: 0;
-    color: #7f4d3e;
-}
-
-h4 {
-    font-size: 0.8em;
-    background-color: black;
-    padding: 10px;
-    border-radius: 5px;
-    color: #e2b659;
-}
-
-p {
-    color: #b87c4c;
-}
-
-.project-container {
-    display: flex;
-}
-
-.project-container img {
-    border-radius: 10px;
-    display: block;
-    width: 256px;
-    height: 256px;
-    background-color: #7f4d3e;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.detail {
-    background-color: #412728;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 20px;
+@media screen and (min-width: 1000px) {
+    .project-container img {
+        margin-left: 0;
+        margin-right: 20px;
+    }
 }
 </style>

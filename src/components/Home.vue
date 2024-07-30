@@ -1,14 +1,19 @@
 <template>
   <div class="content">
-    <h1 v-bind:class="{ 'nav-hidden': hideNav == true }">Chris's Portfolio</h1>
-    <div class="image-container">
-      <img v-bind:src="imageSource" v-on:mouseover="hideNav = false" v-on:click="hideNav = false" v-on:mouseleave="hideNav = true" />
+    <div>
+      <h1 v-bind:class="{ 'nav-hidden': hideNav == true }">Chris's Portfolio</h1>
+      <div class="image-container">
+        <img v-bind:src="imageSource" v-on:mouseover="hideNav = false" v-on:click="hideNav = false" />
+        <nav v-bind:class="{ 'nav-hidden': hideNav == true }" v-on:mouseover="hideNav = false">
+          <router-link v-bind:to="{ name: 'about' }">
+            <div>About Me</div>
+          </router-link>
+          <router-link v-bind:to="{ name: 'projects' }">
+            <div>Projects</div>
+          </router-link>
+        </nav>
+      </div>
     </div>
-    <nav v-bind:class="{ 'nav-hidden': hideNav == true }" v-on:mouseover="hideNav = false"
-      v-on:mouseleave="hideNav = true">
-      <div><router-link v-bind:to="{ name: 'about' }">About Me</router-link></div>
-      <div><router-link v-bind:to="{ name: 'projects' }">Projects</router-link></div>
-    </nav>
   </div>
 </template>
 
@@ -41,7 +46,6 @@ export default {
         if (this.index > this.images.length - 1) {
           this.index = 0;
         }
-        console.log("Image index: " + this.index);
         this.imageSource = this.directory + this.images[this.index];
       }, 3000); // Change image every 3 seconds
     }
@@ -56,74 +60,46 @@ h1 {
   color: whitesmoke;
   margin: 0;
   padding: 0;
-  width: 256px;
-  position: relative;
-  bottom: 150px;
-  left: 256px;
-}
-
-img {
-  display: block;
+  width: auto;
+  text-align: center;
 }
 
 nav {
   margin: 0;
   padding: 0;
   width: 256px;
-  position: relative;
-  top: 158px;
-  right: 256px;
+  position: absolute;
+  background-color: #412728;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 nav div {
-  background-color: #412728;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 30px;
-}
-
-nav div:hover {
-  background-color: #7f4d3e;
+  padding: 15px 0px;
 }
 
 .content {
-  margin: 0;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
-.image-container {
-  position: relative;
-  display: inline-block;
-}
-
-.overlay {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 0.3s;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    text-align: center;
-    width: 80%;
-    pointer-events: none;
-}
-
-.top {
-    top: -50px;
-}
-
-.bottom {
-    bottom: -50px;
+.image-container img {
+  display: block;
 }
 
 .nav-hidden {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (min-width: 480px) {
+  nav div:hover {
+    background-color: #7f4d3e;
+  }
 }
 </style>
