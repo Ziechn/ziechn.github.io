@@ -8,6 +8,9 @@
                 <a href="http://github.com/Ziechn/vending-machine-full-stack" target="_blank">github</a>
             </p>
             <p>
+                <a href="https://vending-machine-full-stack-front-end.onrender.com/" target="_blank">Try it on Render!</a>
+            </p>
+            <p>
                 After our bootcamp ended, one of my classmates asked for help fixing our first capstone project.
                 I thought it would be fun to turn this into a full event for my friends.
                 So, I hosted a Discord event where I guided everyone through updating our original code and building the vending machine full-stack application.
