@@ -39,6 +39,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Copy _redirects file
+        run: cp public/_redirects dist/
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
