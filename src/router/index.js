@@ -22,9 +22,9 @@ const routes = [
   },
 ];
 
-export function createRouter () {
-  return _createRouter({
-    history: createWebHistory(),
-    routes: routes
-  })
-}
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  routes
+});
+
+export default router;
