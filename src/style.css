@@ -139,6 +139,7 @@ ul {
   background-color: #181818;
   padding: 20px;
   margin: 10px 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
