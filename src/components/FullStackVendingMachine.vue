@@ -33,11 +33,5 @@ export default {
 }
 </script>
 
-<style scoped>
-@media screen and (min-width: 1000px) {
-    .project-container img {
-        margin-left: 0;
-        margin-right: 20px;
-    }
-}
+<style>
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="detail-container">
-        <DetailImagesVue v-bind:path="path" v-bind:imageCount="imageCount" />
+        <DetailImagesVue v-bind:path="path" v-bind:imageCount="imageCount" class="last-child" />
         <div class="detail">
             <h2>Hit the Deck Racing - Mobile</h2>
             <h3>Hit the Deck Racing is a retro styled, low poly, sci-fi racing game</h3>
@@ -51,7 +51,7 @@ export default {
 
 <style scoped>
 @media screen and (min-width: 1000px) {
-    img {
+    .last-child {
         order: 1;
     }
 
