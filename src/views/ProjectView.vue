@@ -1,23 +1,22 @@
 <template>
-    <Navigation />
-    <div class="content">
-        <div class="header">
-            <h1>Projects</h1>
-        </div>
-        <Projects />
-    </div>
+    <HeaderVue />
+    <ProjectsVue />
+    <FooterVue />
 </template>
 
 <script>
-import Navigation from '../components/Navigation.vue';
-import Projects from '../components/Projects.vue';
+import HeaderVue from '../components/Header.vue';
+import ProjectsVue from '../components/Projects.vue';
+import FooterVue from '../components/Footer.vue';
+
 export default {
     components: {
-        Navigation,
-        Projects
+        HeaderVue,
+        ProjectsVue,
+        FooterVue
     }
 }
 </script>
 
-<style scoped>
+<style>
 </style>
