@@ -1,6 +1,6 @@
 <template>
     <div class="detail-container">
-        <img src="/assets/images/second-nature.png" alt="Second Nature Logo">
+        <img class="left" src="/assets/images/second-nature.png" alt="Second Nature Logo">
         <div class="detail">
             <h2>Second Nature</h2>
             <h3>A full featured web based mobile application.</h3>

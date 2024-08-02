@@ -1,6 +1,6 @@
 <template>
     <div class="detail-container">
-        <img src="/assets/images/full-stack-vending-machine.png" alt="Full Stack Vending Machine">
+        <img class="left" src="/assets/images/full-stack-vending-machine.png" alt="Full Stack Vending Machine">
         <div class="detail">
             <h2>Full Stack Vending Machine</h2>
             <h3>Taking the CLI application made during the bootcamp and making it a full stack application.</h3>

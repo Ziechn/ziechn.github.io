@@ -43,19 +43,24 @@
           While my two children are my greatest achievements, now I am focused on creating my next great achievement.
         </p>
       </div>
-      <ProfileImagesVue />
+      <DetailImagesVue v-bind:path="path" v-bind:imageCount="imageCount" />
     </div>
   </div>
 </template>
 
 <script>
-import ProfileImagesVue from './ProfileImages.vue'
+import DetailImagesVue from './DetailImages.vue'
 
 export default {
   components: {
-    ProfileImagesVue
+    DetailImagesVue
+  },
+  data() {
+    return {
+      path: "about/",
+      imageCount: 6
+    }
   }
-
 }
 </script>
 

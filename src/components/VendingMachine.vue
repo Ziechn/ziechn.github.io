@@ -1,6 +1,6 @@
 <template>
     <div class="detail-container">
-        <img src="/assets/images/vending-machine.png" alt="Vending Machine">
+        <img class="left" src="/assets/images/vending-machine.png" alt="Vending Machine">
         <div class="detail">
             <h2>Vending Machine Application</h2>
             <h3>A CLI application to simulate a virtual vending machine.</h3>

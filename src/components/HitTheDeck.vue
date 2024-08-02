@@ -1,6 +1,6 @@
 <template>
     <div class="detail-container">
-        <img src="/assets/images/hit-the-deck.png" alt="">
+        <DetailImagesVue v-bind:path="path" v-bind:imageCount="imageCount" />
         <div class="detail">
             <h2>Hit the Deck Racing - Mobile</h2>
             <h3>Hit the Deck Racing is a retro styled, low poly, sci-fi racing game</h3>
@@ -29,9 +29,25 @@
             </p>
             <h4>Unity 3D | Blender 3D | C# | Adobe Illustrator | Procreate | Krita | Inkscape | Ableton Live</h4>
         </div>
-
     </div>
 </template>
+
+<script>
+import DetailImagesVue from "./DetailImages.vue";
+
+export default {
+    components: {
+        DetailImagesVue
+    },
+    data() {
+        return {
+            path: "hit-the-deck/",
+            imageCount: 6
+        }
+    }
+}
+
+</script>
 
 <style scoped>
 @media screen and (min-width: 1000px) {

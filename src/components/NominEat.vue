@@ -1,6 +1,6 @@
 <template>
     <div class="detail-container">
-        <img src="/assets/images/nomin-eat.png" alt="NominEat Logo">
+        <img class="right" src="/assets/images/nomin-eat.png" alt="NominEat Logo">
         <div class="detail">
             <h2>NominEat</h2>
             <h3>NominEat takes the stress out of restaurant selection.</h3>

@@ -1,6 +1,6 @@
 <template>
     <div class="detail-container">
-        <img src="/assets/images/tenmo.png" alt="TEnmo">
+        <img class="right" src="/assets/images/tenmo.png" alt="TEnmo">
         <div class="detail">
             <h2>TENmo</h2>
             <h3>A CLI application to simulate transfering money between users.</h3>
