@@ -8,7 +8,7 @@
                 <a href="http://github.com/nathandickinson32/second-nature" target=”_blank”>github</a>
             </p>
             <p>
-                The Second Nature communications app aims to simplify communication and operational efficiency for the landscaping company with the same name, Second Nature Landscapping LLC. <br>
+                The Second Nature communications app aims to simplify communication and operational efficiency for the landscaping company with the same name, Second Nature Landscaping LLC. <br>
                 Features include:
             </p>
             <ul>
