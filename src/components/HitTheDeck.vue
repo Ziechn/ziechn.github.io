@@ -1,5 +1,5 @@
 <template>
-    <div class="project-container">
+    <div class="detail-container">
         <img src="/assets/images/hit-the-deck.png" alt="">
         <div class="detail">
             <h2>Hit the Deck Racing - Mobile</h2>

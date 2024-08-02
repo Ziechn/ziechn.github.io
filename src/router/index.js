@@ -19,12 +19,7 @@ const routes = [
     path: '/about',
     name: 'about',
     component: AboutView
-  },
-  {
-    path: '/projects',
-    name: 'projects',
-    component: ProjectView
-  },
+  }
 ];
 
 const router = createRouter({

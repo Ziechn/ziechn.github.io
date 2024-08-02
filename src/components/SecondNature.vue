@@ -1,5 +1,5 @@
 <template>
-    <div class="project-container">
+    <div class="detail-container">
         <img src="/assets/images/second-nature.png" alt="Second Nature Logo">
         <div class="detail">
             <h2>Second Nature</h2>

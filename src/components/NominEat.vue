@@ -1,5 +1,5 @@
 <template>
-    <div class="project-container">
+    <div class="detail-container">
         <img src="/assets/images/nomin-eat.png" alt="NominEat Logo">
         <div class="detail">
             <h2>NominEat</h2>

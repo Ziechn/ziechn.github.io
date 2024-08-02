@@ -3,7 +3,7 @@
         <h1>Resume</h1>
         <h3>Cincinnati, Ohio</h3>
         <a href="http://www.linkedin.com/in/chrisacook84/" target="_blank">LinkedIn</a>
-        <div class="section">
+        <div class="detail">
             <h3>Professional Experience</h3>
             <h2>Full Stack Developer</h2>
             <h3>Second Nature</h3>
@@ -33,7 +33,7 @@
             </ul>
         </div>
 
-        <div class="section">
+        <div class="detail">
             <h3>Education</h3>
             <h2>Tech Elevator</h2>
             <h3>Mar 2024 - Jun 2024</h3>
@@ -60,7 +60,7 @@
             </p>
         </div>
 
-        <div class="section">
+        <div class="detail">
             <h3>Job History</h3>
             <h2>FedEx Office</h2>
             <h3>Jun 2011 - Feb 2024</h3>

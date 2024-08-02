@@ -1,5 +1,5 @@
 <template>
-    <div class="project-container">
+    <div class="detail-container">
         <img src="/assets/images/vending-machine.png" alt="Vending Machine">
         <div class="detail">
             <h2>Vending Machine Application</h2>
