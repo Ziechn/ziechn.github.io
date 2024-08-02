@@ -92,8 +92,6 @@ ul {
 .content {
   display: flex;
   align-items: center;
-  margin-top: 0px;
-  padding-top: 10px;
   flex-direction: column;
 }
 
@@ -151,6 +149,15 @@ ul {
 
   nav {
     flex-direction: column;
+    gap: 5px;
+  }
+
+  nav div {
+    background-color: #181818;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .contact {
