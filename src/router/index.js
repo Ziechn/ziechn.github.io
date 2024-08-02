@@ -20,7 +20,11 @@ const routes = [
     name: 'about',
     component: AboutView
   },
-  
+  {
+    path: '/projects',
+    name: 'projects',
+    component: ProjectView
+  },
 ];
 
 const router = createRouter({
