@@ -1,7 +1,7 @@
 <template>
   <div class="navigation">
     <nav>
-      <span class="name">Chris Cook's Portfolio</span>
+      <span class="name"><h2>Chris Cook's Portfolio</h2></span>
       <router-link v-bind:to="{ name: 'projects' }" v-if="route.name != 'projects'">
         <div>Projects</div>
       </router-link>

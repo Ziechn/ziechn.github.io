@@ -4,20 +4,17 @@
     <h3>Software Developer - Dad - Artist - Gamer - Spaghetti Thrower</h3>
     <div class="detail-container">
       <div class="detail">
-        <h2>Creative, self-managed, Dad</h2>
+        <h2>Creative, Self-Managed</h2>
         <p>
           I have a diverse background spanning customer service, graphic design, print, video production, music, and
-          web
-          design.
-          You could say that I have been throwing spaghetti at the wall to see what sticks.
+          web design. You could say that I have been throwing spaghetti at the wall to see what sticks.
         </p>
         <p>
           But for most part, I have been an artist.
         </p>
         <p>
           During my time at FedEx Office, I had the opportunity to apply my logical problem-solving skills by building
-          a
-          fulfillment solution.
+          a fulfillment solution.
           I collaborated with my team to create complex Excel formulas, develop and maintain an automation tool, and
           design a web-based order
           management application with the corporate development team. This experience helped me build confidence in my
@@ -58,7 +55,7 @@ export default {
   data() {
     return {
       path: "about/",
-      imageCount: 6
+      imageCount: 4
     }
   }
 }

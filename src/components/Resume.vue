@@ -9,27 +9,26 @@
             <h3>Second Nature</h3>
             <p>Jul 2024 - Present</p>
             <p>
-                A group project building a communications application for the landscaping company Second Nature.
+                Developing a full stack communications application for Second Nature Landscaping LLC.
             </p>
             <ul>
                 <li>Database design</li>
                 <li>User experience design</li>
                 <li>Database implementation</li>
                 <li>Java backend development</li>
+                <li>Website Design</li>
             </ul>
             <hr>
             <h2>Software Development Student</h2>
             <h3>Tech Elevator · Full-time</h3>
             <p>Mar 2024 - Jun 2024</p>
             <p>Successfully completed a 14 week Java coding bootcamp at Tech Elevator with a 3.0 (out of 3.0) prefect
-                score
-                on
-                all technical work. Below is a list of projects I worked on while enrolled:
+                score on all technical work.<br>Below is a list of projects I worked on while enrolled:
             </p>
             <ul>
-                <li><router-link v-bind:to="{ name: 'projects' }">Vending Machine Application</router-link></li>
-                <li><router-link v-bind:to="{ name: 'projects' }">TEnmo Application</router-link></li>
-                <li><router-link v-bind:to="{ name: 'projects' }">NominEat</router-link></li>
+                <li><router-link v-bind:to="{ name: 'projects' }">Vending Machine Application (CLI)</router-link></li>
+                <li><router-link v-bind:to="{ name: 'projects' }">TEnmo Application (CLI)</router-link></li>
+                <li><router-link v-bind:to="{ name: 'projects' }">NominEat (Full-Stack)</router-link></li>
             </ul>
         </div>
 

@@ -7,9 +7,9 @@
             <p>
                 <a href="http://github.com/Ziechn/vending-machine-full-stack" target="_blank">github</a>
             </p>
-            <p>
+            <!-- <p>
                 <a href="https://vending-machine-full-stack-front-end.onrender.com/" target="_blank">Try it on Render!</a>
-            </p>
+            </p> -->
             <p>
                 After our bootcamp ended, one of my classmates asked for help fixing our first capstone project.
                 I thought it would be fun to turn this into a full event for my friends.
