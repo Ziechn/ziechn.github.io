@@ -1,9 +1,9 @@
 <template>
   <div class="content">
+    <h1>About Me</h1>
+    <h3>Software Developer - Dad - Artist - Gamer - Spaghetti Thrower</h3>
     <div class="detail-container">
       <div class="detail">
-        <h1>About Me</h1>
-        <h3>Software Developer - Dad - Artist - Gamer - Spaghetti Thrower</h3>
         <h2>Creative, self-managed, Dad</h2>
         <p>
           I have a diverse background spanning customer service, graphic design, print, video production, music, and

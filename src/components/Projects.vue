@@ -1,6 +1,7 @@
 <template>
   <div class="content">
     <h1>Projects</h1>
+    <h3>Contributions to a diverse range of projects.</h3>
     <HitTheDeck />
     <SecondNature />
     <NominEat />
