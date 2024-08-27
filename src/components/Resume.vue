@@ -3,6 +3,7 @@
         <h1>Resume</h1>
         <h3>Cincinnati, Ohio</h3>
         <a href="http://www.linkedin.com/in/chrisacook84/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Ziechn">Github</a>
         <div class="detail">
             <h3>Professional Experience</h3>
             <h2>Full Stack Developer</h2>
