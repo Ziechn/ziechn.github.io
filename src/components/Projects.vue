@@ -31,4 +31,13 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+@media screen and (min-width: 1000px) {
+  .content {
+  background-image: url("/public/assets/images/project-background-0.02-htd.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding: 400px 50px 0px;
+  }
+}
+</style>
